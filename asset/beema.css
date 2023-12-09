@@ -1,0 +1,373 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/head-image.png);
+}
+
+.all-font-family {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-section {
+ background-color: rgba(0, 0, 0, 0.788);
+ width: 100% ;
+ height: 100vh;
+ 
+}
+ 
+.logo img {
+  width: 45px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.logo p {
+  font-size: 30px;
+  color: white;
+  margin-left: 7%;
+  margin-top: -3%;
+  margin-bottom: 2%;
+}
+
+.link-1 {
+  margin-left: 85%;
+  margin-top: -6%;
+  margin-bottom: 2%;
+    
+}
+
+.link-1 a {
+  text-decoration: none;
+color: white;
+}
+
+.link-1 a span {
+background-color: #00b997;
+padding: 7px;
+border-radius: 6px;
+   margin-right: 5%;
+}
+
+.big-logo {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 7%;
+ }
+
+.big-logo img {
+  width: 90px;
+}
+
+.Beema-big-log {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 0%;
+  color: #00b997;
+ font-size: 35px;
+}
+
+.Software {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 3%;
+}
+ 
+.Start {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Start a {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 3%;
+  background-color: #00b997;
+  padding: 7px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+  /* css section1 */
+.section1 {
+  padding: 5%;
+}
+
+
+.section1top {
+ text-align: center;
+ font-size: 25px;
+ padding: 20px;
+}
+
+.section1bottom {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 80%;
+ margin: 0 auto;
+}
+
+.section1bottomleft { text-align: center;
+  align-items: center;
+}
+
+.section1bottomleft h2 {  
+  font-size: 30px;
+}
+  
+.section1bottomleft p {
+ font-size: 15px
+}
+
+  
+.section1bottomright {
+ text-align: center;
+}
+
+.section1bottomright img{
+  padding: 35px 0;
+}
+
+  /* css section2 */
+ .section2 {
+  display: flex;
+   align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+}
+  
+
+  /* css section3 */
+.section3 {
+  display: flex;
+  padding: 5%;
+  justify-content: space-around;
+  margin: 0 auto;
+} 
+
+ .section3left {
+ text-align: center;
+}
+ 
+.section3left h1{
+  padding-top: 3rem;
+} 
+
+.section3left p{
+  
+} 
+
+.section3right {
+  text-align: center;
+}
+  
+.what h1 {
+  text-align: center;
+  
+}
+
+.section4 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 9%;
+}
+
+.section4left {
+  border: 1px solid green;
+  justify-content: center;
+  margin-right: 10rem;
+  width: 40%;
+  box-shadow: 2px 0px 10px 0px rgba(5,3,3,0.54);
+}
+
+.section4left i {
+  font-size: 50px;
+}
+
+
+
+.section4left p {
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+}
+
+.line1a {
+  padding: 25px;
+}
+
+.imagenameleft {
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+.section4left a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+
+.section4right {
+  border: 1px solid rgb(0, 13, 128);
+  justify-content: center;
+  width: 40%;
+  box-shadow: 2px 0px 10px 0px rgba(5,3,3,0.54);
+}
+
+.section4right i {
+  font-size: 50px;
+}
+
+.section4right p {
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+}
+
+.line1b {
+  padding: 25px;
+}
+
+.imagenameright {
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.section4right a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+/* section4's css end  */
+
+
+
+.more h1 {
+  justify-content: center;
+  text-align: center;
+}
+
+.rocket img {
+  /* justify-content: center;
+  justify-content: space-around; */
+  margin: 0 auto;
+  padding: 5%;
+  width: 50%;
+  margin-left: 24%;
+}
+
+.beforefoottext {
+  text-align: center;
+}
+
+.beforefoottext1 {
+  padding: 1%;
+}
+
+.beforefoottext2 {
+  padding: 1%
+}
+
+.beforefoottext3 {
+   padding: 1%;
+}
+
+.footer {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  border-top-right-radius: 1100px 20px;
+  border-top-left-radius: 1100px 20px;
+ 
+}  
+
+.logo1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.logo1 img {
+  width: 12%;
+  padding: 1%;
+}
+
+.logo1 p{
+  color: #00b997;
+  font-size: 40px;
+}
+
+.just {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  padding: 3%;
+}
+
+.startyour {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 3%;
+  background-color: #00b997;
+  padding: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.line2 {
+  padding: 20px;
+  margin: 1%;
+}
+
+.footerlink a {
+ text-decoration: none;
+ align-items: center;
+ text-align: center;
+ color: white;
+ margin: 12%;
+font-size: 16px;
+}
+
+.footericon  {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 1%;
+ margin: 1%;
+
+}
+
+
+/* boxshadow
+cssgenerator.org */

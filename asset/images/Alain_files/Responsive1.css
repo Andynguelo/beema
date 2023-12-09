@@ -1,0 +1,86 @@
+@media all and (min-width: 481px) and (max-width: 767px) {
+  /** css-header**/
+  .body, body {
+    margin: auto;
+    margin: 0px;
+  }
+  .header, .main, .footer {
+    max-width: 480px;
+    margin: auto;
+    width: 100%;
+    margin: 0px;
+  }
+  .navigation {
+    display: flex;
+    width: 250px;
+  }
+
+  .i2 {
+    width: 100px;
+    margin-top: 30px;
+  }
+  .lien {
+    margin-top: 8px;
+  }
+  .lien-login {
+    text-decoration: none;
+    text-align: center;
+    background-color: #07a387;
+    font-size: 13px;
+    border-radius: 4px;
+    color: white;
+    height: 30px;
+    width: 80px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+  }
+
+  .lien-login2 {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .contain-center{
+      text-align: center;
+      margin: auto;
+      width: 60%;
+  }  
+  .title_center{
+      font-size: 45px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+  .slogan{
+      font-size: 35px;
+    }
+
+  .btn-center{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+  .btn_1{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    .btn_2{
+      margin-top: 40px;
+    }
+    /** css-main**/
+    .main {
+      margin: auto;
+    }
+    .title_main {
+      margin-top: 50px;
+      margin-bottom: 200px;
+      font-size: 30px;
+    }
+  }
+
